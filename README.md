@@ -13,7 +13,7 @@ int main() {
     int n;
     int i, j;
 
-    scanf("%d", &n);
+    scanf_s("%d", &n);
 
     for(i = 0; i <= n / 2; i++) {
         for(j = 0; j < i; j++) {
